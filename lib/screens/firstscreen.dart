@@ -68,7 +68,7 @@ class _FirstscreenState extends State<Firstscreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(' New 7 Wonders of the world Ranking | 2021'),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.greenAccent,
         centerTitle: true,
         elevation: 0.0,
         actions: [
@@ -85,7 +85,7 @@ class _FirstscreenState extends State<Firstscreen> {
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: currentindex,
         type:BottomNavigationBarType.fixed,
-        selectedItemColor: Colors.deepPurple,
+        selectedItemColor: Colors.greenAccent,
         items: [
           BottomNavigationBarItem(
               icon: FaIcon(
@@ -133,14 +133,14 @@ class _FirstscreenState extends State<Firstscreen> {
               decoration: BoxDecoration(
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.blueGrey,
+                    color: Color(0x559bbb59),
                     blurRadius: 20.0,
                   )
                 ]
               ),
               child: Card(
                 child: InkWell(
-                  splashColor: Colors.blue,
+                  splashColor: Color(0xAA4f81bd),
                   child: Column(
                     children: [
                       ClipRRect(

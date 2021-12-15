@@ -16,7 +16,7 @@ class _SecondscreenState extends State<Secondscreen> {
     return Scaffold(
         appBar:AppBar(
           title:Text('Blog'),
-          backgroundColor: Colors.deepPurple,
+          backgroundColor: Colors.greenAccent,
           centerTitle: true,
         ),
         body: SingleChildScrollView(
